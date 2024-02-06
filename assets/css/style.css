@@ -241,7 +241,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Background _Ajit3.jpg") top center;
+  background: url("../img/Background _Ajit2.jpg") top center;
   background-size: cover;
 }
 
@@ -329,6 +329,26 @@ section {
 }
 
 .section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  color: #173b6c;
+}
+
+.section-title h3::after {
   content: "";
   position: absolute;
   display: block;
@@ -1092,7 +1112,7 @@ section {
   padding-top: 5px;
   text-align: center;
   font-size: 12px;
-  color: #eaebf0;
+  color: black;
 }
 
 
@@ -1227,3 +1247,99 @@ section {
   border: 2px solid #1f5297;
 }
 
+
+/*--------------------------------------------------------------
+# Project
+--------------------------------------------------------------*/
+.project .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+.project .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.project .content ul strong {
+  margin-right: 10px;
+}
+
+.project .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
+
+.project .content p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+.overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .popup {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+            width: 80%;
+            max-width: 800px;
+            max-height: 80%;
+            margin: 15px;
+            overflow-y: auto;
+        }
+
+        .popup h2 {
+            margin-top: 0;
+        }
+
+        .popup button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .popup button:hover {
+            background-color: #45a049;
+        }
+.aboutemetext{
+  display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+aboutmeimage{
+  max-width: 100%;
+  max-height:100%;
+}
+.aboutmetext{
+  font-size: 20px;
+  padding-left: 20px;
+}
+}
